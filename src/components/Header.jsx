@@ -62,7 +62,7 @@ function Header() {
           className={
             open
               ? "fixed left-0 top-0 w-[70%] h-screen bg-gray-900 ease-in-out duration-500"
-              : "fixed left-[-100%]"
+              : "fixed left-[-100%] top-0 h-screen ease-in-out duration-500"
           }
         >
           <ul className="flex flex-col gap-10 px-5 py-12 uppercase bg-gray-900">
