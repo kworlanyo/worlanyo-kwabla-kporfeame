@@ -45,8 +45,8 @@ function Hero() {
               </a>
             </div>
           </div>
-          <div className="order-first">
-            <img src={avatar} alt="" width={350} />
+          <div className="order-first w-[150px] md:w-[350px]">
+            <img src={avatar} alt="" />
           </div>
         </div>
       </div>
