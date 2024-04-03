@@ -1,9 +1,9 @@
 function Header() {
   return (
-    <header className="sticky top-0 z-30 w-full border-b border-transparent max-md:border-gray-100 bg-gray/50 backdrop-blur-xl md:border-gray-100">
+    <header className="sticky top-0 z-30 w-full border-b border-transparent bg-gray-900/5 backdrop-blur-xl">
       <nav className="flex items-center justify-between w-full p-4 mx-auto max-w-7xl md:px-8">
-        <div>
-          <a href="/">
+        <div className="font-bold text-gray-200 md:text-2xl">
+          <a href="#">
             WKK
             <img src="" alt="" />
           </a>
@@ -11,8 +11,8 @@ function Header() {
         <ul className="flex items-center gap-6 list-none">
           <li>
             <a
-              href=""
-              className="font-medium text-gray-600 transition-all hover:text-gray-900 active:text-gray-600"
+              href="#"
+              className="font-medium text-gray-200 transition-all hover:text-gray-400 active:text-gray-600"
               target="_self"
             >
               Home
@@ -20,8 +20,8 @@ function Header() {
           </li>
           <li>
             <a
-              href=""
-              className="font-medium text-gray-600 transition-all hover:text-gray-900 active:text-gray-600"
+              href="#projects"
+              className="font-medium text-gray-200 transition-all hover:text-gray-400 active:text-gray-600"
               target="_self"
             >
               Projects
@@ -29,8 +29,8 @@ function Header() {
           </li>
           <li>
             <a
-              href=""
-              className="font-medium text-gray-600 transition-all hover:text-gray-900 active:text-gray-600"
+              href="#about"
+              className="font-medium text-gray-200 transition-all hover:text-gray-400 active:text-gray-600"
               target="_self"
             >
               About
@@ -38,8 +38,8 @@ function Header() {
           </li>
           <li>
             <a
-              href=""
-              className="font-medium text-gray-600 transition-all hover:text-gray-900 active:text-gray-600"
+              href="#contact"
+              className="font-medium text-gray-200 transition-all hover:text-gray-400 active:text-gray-600"
               target="_self"
             >
               Contact

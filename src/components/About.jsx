@@ -5,6 +5,10 @@ import sass from "../assets/icon-sass.svg";
 import tailwind from "../assets/icon-tailwindcss.svg";
 import figma from "../assets/icon-figma.svg";
 import git from "../assets/icon-git.svg";
+import html from "../assets/html5.svg";
+import github from "../assets/icon-github.svg";
+import css from "../assets/icon-css.svg";
+import vscode from "../assets/icon-vscode.svg";
 
 const technologies = [
   {
@@ -35,12 +39,28 @@ const technologies = [
     name: "Git",
     image: git,
   },
+  {
+    name: "HTML",
+    image: html,
+  },
+  {
+    name: "Github",
+    image: github,
+  },
+  {
+    name: "CSS",
+    image: css,
+  },
+  {
+    name: "VS Code",
+    image: vscode,
+  },
 ];
 
 function About() {
   return (
     <>
-      <div className="w-full py-16 md:py-20 2xl:py24 bg-gray-50" id="about">
+      <div className="w-full py-16 bg-gray-900 md:py-20 2xl:py24" id="about">
         <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
           <div className="self-center">
             <div className="flex items-center justify-center px-5 py-1 bg-gray-200 rounded-xl">
@@ -49,10 +69,10 @@ function About() {
           </div>
           <div className="flex flex-col justify-between w-full gap-12 md:flex-row">
             <div className="flex flex-col max-w-xl gap-6">
-              <h3 className="text-2xl md:text-3xl font-semibold tracking-[-0.02em] text-gray-900">
+              <h3 className="text-2xl md:text-3xl font-semibold tracking-[-0.02em] text-gray-50">
                 Lorem ipsum dolor sit amet.
               </h3>
-              <p className="text-base text-normal">
+              <p className="text-base text-gray-200 text-normal">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt,
                 vel nemo culpa veniam, reiciendis itaque dignissimos dolorum ex
                 a animi natus non, accusantium quod sed omnis autem dolor
@@ -71,7 +91,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="w-full py-16 bg-gray md:py-20 2xl:py-24">
+      <div className="w-full py-16 bg-[#030712] md:py-20 2xl:py-24">
         <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
           <div className="flex flex-col items-center gap-4">
             <div className="self-center">
@@ -79,12 +99,12 @@ function About() {
                 <h2 className="text-sm font-medium text-normal">Skills</h2>
               </div>
             </div>
-            <p className="max-w-2xl text-lg text-center text-normal md:text-xl">
+            <p className="max-w-2xl text-lg text-center text-gray-200 text-normal md:text-xl">
               The skills, tools and technologies I use to bring your products to
               life
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-y-4 md:grid-cols-6 md:gap-y-8 lg:grid-cols-8 lg:gap-y-12">
+          <div className="grid grid-cols-3 text-gray-200 gap-y-4 md:grid-cols-6 md:gap-y-8 lg:grid-cols-8 lg:gap-y-12">
             {technologies.map((tech, i) => {
               return (
                 <div key={i} className="flex flex-col items-center gap-2">
