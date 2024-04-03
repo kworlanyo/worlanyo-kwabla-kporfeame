@@ -9,3 +9,7 @@
 body {
   background-color: #111827;
 }
+
+.hero-container {
+  background-image: linear-gradient(340deg, #111827 70%, #40baf0);
+}

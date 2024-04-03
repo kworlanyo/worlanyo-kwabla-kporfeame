@@ -10,6 +10,10 @@ function Contact() {
     <section
       className="w-full py-16 bg-gray-900 md:py-20 2xl:py-24"
       id="contact"
+      style={{
+        background:
+          "radial-gradient(farthest-corner at 700px 700px, rgb(39, 51, 83)0%, rgba(17,24,39,1) 57%)",
+      }}
     >
       <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
         <div className="flex flex-col items-center gap-4">

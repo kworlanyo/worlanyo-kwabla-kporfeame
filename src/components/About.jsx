@@ -60,7 +60,14 @@ const technologies = [
 function About() {
   return (
     <>
-      <div className="w-full py-16 bg-gray-900 md:py-20 2xl:py24" id="about">
+      <div
+        className="w-full py-16 md:py-20 2xl:py24"
+        id="about"
+        style={{
+          background:
+            "radial-gradient(farthest-corner at 100px 600px, rgb(39, 51, 83) 0%, rgba(17,24,39,1) 37%)",
+        }}
+      >
         <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
           <div className="self-center">
             <div className="flex items-center justify-center px-5 py-1 bg-gray-200 rounded-xl">
@@ -91,7 +98,13 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="w-full py-16 bg-[#030712] md:py-20 2xl:py-24">
+      <div
+        className="w-full py-16 bg-[#030712] md:py-20 2xl:py-24"
+        style={{
+          background:
+            "radial-gradient(farthest-corner at 2000px 1000px, rgb(50, 66, 109) 0%, rgb(3, 7, 18) 67%)",
+        }}
+      >
         <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
           <div className="flex flex-col items-center gap-4">
             <div className="self-center">

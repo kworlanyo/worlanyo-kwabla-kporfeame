@@ -17,7 +17,7 @@ function Header() {
             <img src="" alt="" />
           </a>
         </div>
-        <ul className="items-center hidden gap-6 list-none md:flex">
+        <ul className="items-center hidden gap-10 list-none md:flex">
           <li>
             <a
               href="#"

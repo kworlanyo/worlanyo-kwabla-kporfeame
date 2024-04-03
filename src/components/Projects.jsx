@@ -9,7 +9,7 @@ const projects = [
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea odit molestias magnam eligendi amet ipsam provident, ipsum labore vitae laboriosam dicta. Perspiciatis nisi quo accusantium. Quam dolorem officiis iure deserunt ducimus voluptatum quae,beatae, ipsa atque exercitationem nobis. Blanditiis.",
     link: "https://lavie-fruit-juices-and-smoothies-website.onrender.com/",
     image: lavie,
-    techUsed: ["React", "CSS", "React Router Dom"],
+    techUsed: ["React", "CSS", "React Router Dom", "Figma"],
   },
   {
     name: "Mitchell And Associates Website",
@@ -32,8 +32,12 @@ const projects = [
 function Projects() {
   return (
     <section
-      className="w-full py-16 bg-[#030712] md:py-20 2xl:py-24"
+      className="w-full py-16 md:py-20 2xl:py-24"
       id="projects"
+      style={{
+        background:
+          "radial-gradient(farthest-corner at 1600px 1200px, rgb(39, 51, 83) 0%, rgb(3, 7, 18) 67%)",
+      }}
     >
       <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
         <div className="flex flex-col items-center gap-4">
