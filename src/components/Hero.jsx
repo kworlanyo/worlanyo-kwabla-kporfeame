@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-// import avatar from "../assets/avatar.png";
 import heroImage from "../assets/hero-image-1.png";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
