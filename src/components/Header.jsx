@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import logo from "../assets/logo1.svg";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -13,8 +14,8 @@ function Header() {
       <nav className="flex items-center justify-between w-full p-4 mx-auto max-w-7xl md:px-8">
         <div className="font-bold text-gray-200 md:text-2xl">
           <a href="#">
-            WKK
-            <img src="" alt="" />
+            {/* WKK */}
+            <img src={logo} alt="" className="w-[35px] md:w-[45px]" />
           </a>
         </div>
         <ul className="items-center hidden gap-10 list-none md:flex">

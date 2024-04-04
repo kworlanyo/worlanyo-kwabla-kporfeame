@@ -27,7 +27,7 @@ function Hero() {
             data-aos="fade-right"
             data-aos-duration="1000"
           >
-            <div className="flex flex-col gap-2 lg:w-[620px]">
+            <div className="flex flex-col gap-2 lg:w-[635px]">
               <h1 className="text-center md:text-left text-4xl font-semibold md:font-bold md:text-5xl md:tracking-[-0.02em] lg:text-6xl lg:leading-[72px] text-gray-100">
                 Hello, I'm Worlanyo 👋🏽
               </h1>
@@ -35,9 +35,9 @@ function Hero() {
                 <h2 className="">A passionate</h2>
                 <ReactTyped
                   strings={[
-                    "Frontend Web Developer",
+                    "Frontend Developer",
                     "UI Designer",
-                    "Musician",
+                    "Project Manager",
                   ]}
                   typeSpeed={100}
                   backSpeed={100}
