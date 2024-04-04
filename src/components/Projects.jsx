@@ -1,6 +1,6 @@
 import mitchell from "../assets/Mitchell-and-associates-website.png";
 import lavie from "../assets/lavie-juices-and-smoothies-website.png";
-import countries from "../assets/the-countries-app.png";
+import countries from "../assets/the-countries-website.png";
 
 const projects = [
   {
