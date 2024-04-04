@@ -15,7 +15,11 @@ function Contact() {
           "radial-gradient(farthest-corner at 700px 700px, rgb(39, 51, 83)0%, rgba(17,24,39,1) 57%)",
       }}
     >
-      <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
+      <div
+        className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         <div className="flex flex-col items-center gap-4">
           <div className="self-center">
             <div className="flex items-center justify-center px-5 py-1 bg-gray-200 rounded-xl">

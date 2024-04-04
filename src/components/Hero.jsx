@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-import heroImage from "../assets/hero-image-1.png";
+import heroImage from "../assets/hero-image-3.png";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
+import { ReactTyped } from "react-typed";
 
 function Hero() {
   return (
@@ -20,16 +21,36 @@ function Hero() {
       id="hero"
     >
       <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
-        <div className="flex flex-col items-center gap-12 md:flex-row">
-          <div className="flex flex-col justify-center flex-grow max-w-3xl gap-8 md:order-first md:items-start md:justify-center 2xl:gap-12">
-            <div className="flex flex-col gap-2">
+        <div className="flex flex-col items-center gap-12 lg:flex-row">
+          <div
+            className="flex flex-col justify-center flex-grow max-w-3xl gap-8 lg:order-first md:items-start md:justify-center 2xl:gap-12"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <div className="flex flex-col gap-2 lg:w-[620px]">
               <h1 className="text-center md:text-left text-4xl font-semibold md:font-bold md:text-5xl md:tracking-[-0.02em] lg:text-6xl lg:leading-[72px] text-gray-100">
                 Hello, I'm Worlanyo 👋🏽
               </h1>
+              <div className="flex flex-col items-center gap-2 my-4 text-xl font-semibold text-center sm:flex-row sm:justify-center md:text-3xl text-normal md:text-left md:justify-start">
+                <h2 className="">A passionate</h2>
+                <ReactTyped
+                  strings={[
+                    "Frontend Web Developer",
+                    "UI Designer",
+                    "Musician",
+                  ]}
+                  typeSpeed={100}
+                  backSpeed={100}
+                  loop
+                  className="text-blue-400"
+                />
+              </div>
               <p className="text-base text-center text-normal md:text-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam architecto accusantium culpa eaque accusamus expedita
-                animi voluptate amet, nesciunt iste.
+                I am on a mission to create captivating digital experiences.
+                With a keen eye for design and a love for coding, I craft
+                beautiful and user-friendly websites that leave a lasting
+                impression. I am always looking for new challenges and
+                opportunities to grow as a developer.
               </p>
             </div>
             <div className="flex justify-center gap-3 md:justify-start">
@@ -53,7 +74,11 @@ function Hero() {
               </a>
             </div>
           </div>
-          <div className="order-first w-[150px] md:w-[350px]">
+          <div
+            className="order-first w-[150px] md:w-[200px] lg:w-[350px]"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <img src={heroImage} alt="" />
           </div>
         </div>

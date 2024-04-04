@@ -1,20 +1,21 @@
 import mitchell from "../assets/Mitchell-and-associates-website.png";
 import lavie from "../assets/lavie-juices-and-smoothies-website.png";
 import countries from "../assets/the-countries-website.png";
+import { LuExternalLink } from "react-icons/lu";
 
 const projects = [
   {
     name: "Lavie Juices and Smoothies Website",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea odit molestias magnam eligendi amet ipsam provident, ipsum labore vitae laboriosam dicta. Perspiciatis nisi quo accusantium. Quam dolorem officiis iure deserunt ducimus voluptatum quae,beatae, ipsa atque exercitationem nobis. Blanditiis.",
+      "This is a website I created for a juice and smoothies startup called Lavie. I built it with React and some libraries like React Router Dom. I first designed it in Figma and then developed it afterwards. I used useContext and useReducer hooks to manage my states in one component.",
     link: "https://lavie-fruit-juices-and-smoothies-website.onrender.com/",
     image: lavie,
-    techUsed: ["React", "CSS", "React Router Dom", "Figma"],
+    techUsed: ["React", "CSS", "React Router Dom", "Figma", "React Icons"],
   },
   {
     name: "Mitchell And Associates Website",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea odit molestias magnam eligendi amet ipsam provident, ipsum labore vitae laboriosam dicta. Perspiciatis nisi quo accusantium. Quam dolorem officiis iure deserunt ducimus voluptatum quae,beatae, ipsa atque exercitationem nobis. Blanditiis.",
+      "I created this website for a fictional law firm called Mitchell and Associates. I used only HTML and CSS to develop this website. This project made me realize that a lot could be achieved using just HTML and CSS.",
     link: "https://kworlanyo.github.io/Mitchell-And-Associates-Law-Firm-Website/",
     image: mitchell,
     techUsed: ["HTML", "CSS"],
@@ -22,7 +23,7 @@ const projects = [
   {
     name: "The Countries Website",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea odit molestias magnam eligendi amet ipsam provident, ipsum labore vitae laboriosam dicta. Perspiciatis nisi quo accusantium. Quam dolorem officiis iure deserunt ducimus voluptatum quae,beatae, ipsa atque exercitationem nobis. Blanditiis.",
+      "This website makes it possible to search for countries and see their flags and other details. I created this website in a way that the user can either scroll through a list of countries or input the name of the country in an input field and search for it. I built the website with react and styled with vanilla css.",
     link: "https://the-countries-website.onrender.com/",
     image: countries,
     techUsed: ["React", "CSS"],
@@ -55,12 +56,14 @@ function Projects() {
             <div
               key={project.link}
               className="flex flex-col w-full max-w-6xl mx-auto overflow-hidden bg-[#1F2937] text-gray-100 shadow-md rounded-xl dark:shadow-2xl md:flex-row"
+              data-aos="fade-up"
+              data-aos-duration="1000"
             >
               <div
                 className={
                   i % 2 === 0
                     ? "flex items-center justify-center p-8 border-gray-900 bg-[#374151] max-md:rounded-t-xl md:w-1/2 lg:p-12 md:rounded-1-xl md:border-r"
-                    : "flex items-center justify-center p-8 border-gray-900 bg-[#374151] max-md:rounded-t-xl md:w-1/2 lg:p-12 md:rounded-1-xl md:border-r order-last"
+                    : "flex items-center justify-center p-8 border-gray-900 bg-[#374151] max-md:rounded-t-xl md:w-1/2 lg:p-12 md:rounded-1-xl md:border-r md:order-last"
                 }
               >
                 <a href={project.link} target="_blank">
@@ -91,8 +94,13 @@ function Projects() {
                     );
                   })}
                 </div>
-                <a href={project.link} target="_blank">
-                  live demo
+                <a
+                  href={project.link}
+                  target="_blank"
+                  className="flex items-center gap-2 text-blue-400 underline"
+                >
+                  Live demo
+                  <LuExternalLink />
                 </a>
               </div>
             </div>

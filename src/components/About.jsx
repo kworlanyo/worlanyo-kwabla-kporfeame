@@ -9,6 +9,10 @@ import html from "../assets/html5.svg";
 import github from "../assets/icon-github.svg";
 import css from "../assets/icon-css.svg";
 import vscode from "../assets/icon-vscode.svg";
+import markdown from "../assets/icon-markdown.svg";
+import styled from "../assets/icon-styled-components.svg";
+// import avatar from "../assets/avatar.png";
+import aboutImg from "../assets/About-image.png";
 
 const technologies = [
   {
@@ -55,6 +59,14 @@ const technologies = [
     name: "VS Code",
     image: vscode,
   },
+  {
+    name: "Markdown",
+    image: markdown,
+  },
+  {
+    name: "Styled Components",
+    image: styled,
+  },
 ];
 
 function About() {
@@ -74,8 +86,12 @@ function About() {
               <h2 className="text-sm font-medium text-normal">About Me</h2>
             </div>
           </div>
-          <div className="flex flex-col justify-between w-full gap-12 md:flex-row">
-            <div className="flex flex-col max-w-xl gap-6">
+          <div className="flex flex-col items-center justify-between w-full gap-12 md:flex-row">
+            <div
+              className="flex flex-col max-w-xl gap-6 md:max-w-md lg:max-w-2xl"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <h3 className="text-2xl md:text-3xl font-semibold tracking-[-0.02em] text-gray-50">
                 Lorem ipsum dolor sit amet.
               </h3>
@@ -94,6 +110,13 @@ function About() {
                 perspiciatis at rem officia facere nulla consequatur
                 necessitatibus? Porro, soluta dolorem!
               </p>
+            </div>
+            <div
+              className="order-first md:order-last w-[150px] md:w-[400px]"
+              // data-aos="fade-left"
+              // data-aos-duration="1000"
+            >
+              <img src={aboutImg} alt="" className="object-cover" />
             </div>
           </div>
         </div>
@@ -120,7 +143,12 @@ function About() {
           <div className="grid grid-cols-3 text-gray-200 gap-y-4 md:grid-cols-6 md:gap-y-8 lg:grid-cols-8 lg:gap-y-12">
             {technologies.map((tech, i) => {
               return (
-                <div key={i} className="flex flex-col items-center gap-2">
+                <div
+                  key={i}
+                  className="flex flex-col items-center gap-2"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                >
                   <img
                     src={tech.image}
                     alt={tech.name}
@@ -129,7 +157,7 @@ function About() {
                     // height={64}
                     className="transition-transform duration-300 md:hover:scale-110"
                   />
-                  <p className="text-base text-normal md:text-lg">
+                  <p className="text-base text-center text-normal md:text-lg">
                     {tech.name}
                   </p>
                 </div>
