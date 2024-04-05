@@ -33,11 +33,13 @@ function Contact() {
         </div>
         <div className="flex flex-col items-center gap-6 text-gray-200 md:gap-12">
           <div className="flex flex-col items-center md:gap-4">
-            <div className="flex items-center gap-4 md:gap-5">
+            <div className="flex items-center gap-4 md:gap-3">
               <IoIosMail className="w-6 h-6 md:h-8 md:w-8" />
-              <h2 className="text-lg md:text-4xl font-semibold tracking-[-0.02em] text-gray-200">
-                kworlanyo@gmail.com
-              </h2>
+              <a href="mailto:kworlanyo@gmail.com">
+                <p className="text-lg md:text-4xl font-semibold tracking-[-0.02em] text-gray-200 hover:underline">
+                  kworlanyo@gmail.com
+                </p>
+              </a>
             </div>
           </div>
           <div className="flex flex-col items-center gap-2">

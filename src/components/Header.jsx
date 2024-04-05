@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import logo from "../assets/logo1.svg";
+// import resume from "../../public/Worlanyo Kwabla Kporfeame Word Web Developer Resume 2023.pdf";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -55,6 +56,15 @@ function Header() {
               Contact
             </a>
           </li>
+          <li>
+            <a
+              href="/Worlanyo Kwabla Kporfeame Word Web Developer Resume 2023.pdf"
+              className="px-5 py-2 font-medium text-gray-900 bg-gray-100 rounded-xl hover:bg-gray-300"
+              download
+            >
+              Resume
+            </a>
+          </li>
         </ul>
         <div className="block text-gray-200 md:hidden" onClick={handleNav}>
           {open ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
@@ -101,6 +111,15 @@ function Header() {
                 target="_self"
               >
                 Contact
+              </a>
+            </li>
+            <li>
+              <a
+                href="/Worlanyo Kwabla Kporfeame Word Web Developer Resume 2023.pdf"
+                className="px-5 py-2 font-medium text-gray-900 bg-gray-100 rounded-xl hover:bg-gray-300"
+                download
+              >
+                Resume
               </a>
             </li>
           </ul>

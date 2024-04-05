@@ -1,84 +1,84 @@
 /* eslint-disable react/no-unescaped-entities */
-// import javascript from "../assets/icon-javascript.svg";
-// import react from "../assets/icon-react.svg";
-// import nodejs from "../assets/icon-nodejs.svg";
-// import sass from "../assets/icon-sass.svg";
-// import tailwind from "../assets/icon-tailwindcss.svg";
-// import figma from "../assets/icon-figma.svg";
-// import git from "../assets/icon-git.svg";
-// import html from "../assets/html5.svg";
-// import github from "../assets/icon-github.svg";
-// import css from "../assets/icon-css.svg";
-// import vscode from "../assets/icon-vscode.svg";
-// import markdown from "../assets/icon-markdown.svg";
-// import styled from "../assets/icon-styled-components.svg";
+import javascript from "../assets/icon-javascript.svg";
+import react from "../assets/icon-react.svg";
+import nodejs from "../assets/icon-nodejs.svg";
+import sass from "../assets/icon-sass.svg";
+import tailwind from "../assets/icon-tailwindcss.svg";
+import figma from "../assets/icon-figma.svg";
+import git from "../assets/icon-git.svg";
+import html from "../assets/html5.svg";
+import github from "../assets/icon-github.svg";
+import css from "../assets/icon-css.svg";
+import vscode from "../assets/icon-vscode.svg";
+import markdown from "../assets/icon-markdown.svg";
+import styled from "../assets/icon-styled-components.svg";
 // import avatar from "../assets/avatar.png";
-import aboutImg from "../assets/About-image.png";
+// import aboutImg from "../assets/About-image.png";
 
-// const technologies = [
-//   {
-//     name: "JavaScript",
-//     image: javascript,
-//   },
-//   {
-//     name: "React",
-//     image: react,
-//   },
-//   {
-//     name: "Node.js",
-//     image: nodejs,
-//   },
-//   {
-//     name: "Sass/Scss",
-//     image: sass,
-//   },
-//   {
-//     name: "Tailwindcss",
-//     image: tailwind,
-//   },
-//   {
-//     name: "Figma",
-//     image: figma,
-//   },
-//   {
-//     name: "Git",
-//     image: git,
-//   },
-//   {
-//     name: "HTML",
-//     image: html,
-//   },
-//   {
-//     name: "Github",
-//     image: github,
-//   },
-//   {
-//     name: "CSS",
-//     image: css,
-//   },
-//   {
-//     name: "VS Code",
-//     image: vscode,
-//   },
-//   {
-//     name: "Markdown",
-//     image: markdown,
-//   },
-//   {
-//     name: "Styled Components",
-//     image: styled,
-//   },
-// ];
+const technologies = [
+  {
+    name: "JavaScript",
+    image: javascript,
+  },
+  {
+    name: "React",
+    image: react,
+  },
+  {
+    name: "Node.js",
+    image: nodejs,
+  },
+  {
+    name: "Sass/Scss",
+    image: sass,
+  },
+  {
+    name: "Tailwindcss",
+    image: tailwind,
+  },
+  {
+    name: "Figma",
+    image: figma,
+  },
+  {
+    name: "Git",
+    image: git,
+  },
+  {
+    name: "HTML",
+    image: html,
+  },
+  {
+    name: "Github",
+    image: github,
+  },
+  {
+    name: "CSS",
+    image: css,
+  },
+  {
+    name: "VS Code",
+    image: vscode,
+  },
+  {
+    name: "Markdown",
+    image: markdown,
+  },
+  {
+    name: "Styled Components",
+    image: styled,
+  },
+];
 
-function About() {
+function Skills() {
   return (
     <>
-      <div
-        className="w-full py-16 md:py-20 2xl:py24 bg-[#030712]"
+      {/* <div
+        className="w-full py-16 md:py-20 2xl:py24"
         id="about"
         style={{
           background:
-            "radial-gradient(farthest-corner at 100px 600px, rgb(50, 66, 109) 0%, rgb(3, 7, 18) 37%)",
+            "radial-gradient(farthest-corner at 100px 600px, rgb(39, 51, 83) 0%, rgba(17,24,39,1) 37%)",
         }}
       >
         <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
@@ -130,8 +130,8 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
-      {/* <div
+      </div> */}
+      <div
         className="w-full py-16 bg-[#030712] md:py-20 2xl:py-24"
         style={{
           background:
@@ -175,9 +175,9 @@ function About() {
             })}
           </div>
         </div>
-      </div> */}
+      </div>
     </>
   );
 }
 
-export default About;
+export default Skills;

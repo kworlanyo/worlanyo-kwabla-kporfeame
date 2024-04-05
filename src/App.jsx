@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Skills from "./components/Skills";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
       <Header />
       <main className="flex flex-col w-full min-h-screen">
         <Hero />
+        <Skills />
         <Projects />
         <About />
         <Contact />

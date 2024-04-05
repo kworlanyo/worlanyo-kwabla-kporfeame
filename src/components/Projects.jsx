@@ -37,7 +37,7 @@ function Projects() {
       id="projects"
       style={{
         background:
-          "radial-gradient(farthest-corner at 1600px 1200px, rgb(39, 51, 83) 0%, rgb(3, 7, 18) 67%)",
+          "radial-gradient(farthest-corner at 1600px 1200px, rgb(39, 51, 83) 0%, rgba(17,24,39,1) 67%)",
       }}
     >
       <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
