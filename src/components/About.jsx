@@ -111,8 +111,15 @@ function About() {
                 user-centered interfaces. But my fascination with website
                 functionalities led me to pursue further learning as a web
                 developer, so I joined the Full Stack Web Development program at
-                the Digital Career Institute, where I also currently work part
-                time as a tutor. <br />
+                the{" "}
+                <a
+                  href="https://digitalcareerinstitute.org/"
+                  className="text-blue-400 underline"
+                  target="_blank"
+                >
+                  Digital Career Institute
+                </a>
+                , where I also currently work part time as a tutor. <br />
                 <br />I enjoy playing the drums and piano, creating music with
                 Ableton Live, and watching football.
               </p>

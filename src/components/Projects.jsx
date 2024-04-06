@@ -24,10 +24,10 @@ const projects = [
   {
     name: "The Countries Website",
     description:
-      "This website makes it possible to search for countries and see their flags and other details. I created this website in a way that the user can either scroll through a list of countries or input the name of the country in an input field and search for it. I built the website with react and styled with vanilla css.",
+      "This website makes it possible to search for countries and see their flags and other details. I created this website in a way that the user can either scroll through a list of countries or input the name of the country in an input field and search for it. I built the website with react and styled with vanilla css. I got the list of the countries using the fetch Api",
     link: "https://the-countries-website.onrender.com/",
     image: countries,
-    techUsed: ["React", "CSS"],
+    techUsed: ["React", "CSS", "Fetch API"],
   },
   {
     name: "Simple Calculator",

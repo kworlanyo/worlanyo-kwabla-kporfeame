@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import logo from "../assets/logo1.svg";
-// import resume from "../../public/Worlanyo Kwabla Kporfeame Word Web Developer Resume 2023.pdf";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -15,7 +14,6 @@ function Header() {
       <nav className="flex items-center justify-between w-full p-4 mx-auto max-w-7xl md:px-8">
         <div className="font-bold text-gray-200 md:text-2xl">
           <a href="#">
-            {/* WKK */}
             <img src={logo} alt="" className="w-[35px] md:w-[45px]" />
           </a>
         </div>
@@ -58,7 +56,7 @@ function Header() {
           </li>
           <li>
             <a
-              href="/Worlanyo Kwabla Kporfeame Word Web Developer Resume 2023.pdf"
+              href="/Worlanyo Kwabla Kporfeame Resume.pdf"
               className="px-5 py-2 font-medium text-gray-900 bg-gray-100 rounded-xl hover:bg-gray-300"
               download
             >
