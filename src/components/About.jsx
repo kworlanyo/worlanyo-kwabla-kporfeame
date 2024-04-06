@@ -94,31 +94,27 @@ function About() {
               data-aos-duration="1000"
             >
               <h3 className="text-2xl md:text-3xl font-semibold tracking-[-0.02em] text-gray-50">
-                My Web Development Story
+                Who is Worlanyo?
               </h3>
               <p className="text-base text-gray-200 text-normal">
-                Hello, I'm Worlanyo, a UI designer turned web developer,
-                originally from Ghana and now living in Germany. I love
-                problem-solving and helping others. <br />
+                I am a UI designer turned web developer. Originally from Ghana,
+                I live in Germany with my family. Solving problems and helping
+                others really matter to me. <br />
                 <br /> Before diving into web development, I gained experience
-                working with various organizations in Ghana. At a surveying
-                company in 2017, I collected detailed data on electric meters,
-                honing my attention to detail skills. Later, as a Project
-                Manager at a child development center, I led a team of 20
-                employees in creating programs for 212 children, nurturing my
-                leadership and project management skills. <br />
+                working with various organizations in Ghana, from working at a
+                Geomatic firm as a field surveyor, to working as a Project
+                Manager at a child development center. <br />
                 <br />
-                After moving to Germany in 2021, I shifted my focus to UI design
-                in 2022. I completed the Google UX Design Course on Coursera
+                After moving to Germany in 2021, I shifted my focus to UI
+                design. I completed the Google UX Design Course on Coursera
                 which helped me grasp the design process and develop
                 user-centered interfaces. But my fascination with website
-                functionality led me to pursue further learning as a web
-                developer. I joined the Full Stack Web Development program at
-                Digital Career Institute in August 2023, where I was also
-                selected as a tutor to support my classmates. <br />
-                <br />
-                Outside of work, I enjoy playing the drums and piano, creating
-                music with Ableton Live, and watching football.
+                functionalities led me to pursue further learning as a web
+                developer, so I joined the Full Stack Web Development program at
+                the Digital Career Institute, where I also currently work part
+                time as a tutor. <br />
+                <br />I enjoy playing the drums and piano, creating music with
+                Ableton Live, and watching football.
               </p>
             </div>
             <div
