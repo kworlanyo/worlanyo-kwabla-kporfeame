@@ -10,7 +10,6 @@ import html from "../assets/html5.svg";
 import github from "../assets/icon-github.svg";
 import css from "../assets/icon-css.svg";
 import vscode from "../assets/icon-vscode.svg";
-import markdown from "../assets/icon-markdown.svg";
 import styled from "../assets/icon-styled-components.svg";
 // import avatar from "../assets/avatar.png";
 // import aboutImg from "../assets/About-image.png";
@@ -59,10 +58,6 @@ const technologies = [
   {
     name: "VS Code",
     image: vscode,
-  },
-  {
-    name: "Markdown",
-    image: markdown,
   },
   {
     name: "Styled Components",

@@ -4,16 +4,13 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
+import { FaGithubSquare } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 
 function Hero() {
   return (
     <section
       className="w-full py-16 text-gray-100 bg-gray-900 md:py-20 2xl:py-24"
-      // style={{
-      //   background:
-      //     "radial-gradient(farthest-corner at 350px 150px, rgba(64, 187, 240, 0.356) 0%, rgba(17,24,39,1) 37%)",
-      // }}
       style={{
         background:
           "radial-gradient(farthest-corner at 350px 150px, rgb(39, 51, 83) 0%, rgba(17,24,39,1) 37%)",
@@ -59,6 +56,9 @@ function Hero() {
                 target="_blank"
               >
                 <FaLinkedin size={40} />
+              </a>
+              <a href="https://github.com/kworlanyo" target="_blank">
+                <FaGithubSquare size={40} />
               </a>
               <a href="https://twitter.com/Worlanyo29" target="_blank">
                 <FaSquareXTwitter size={40} />

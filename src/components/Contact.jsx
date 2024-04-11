@@ -4,6 +4,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
+import { FaGithubSquare } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -52,6 +53,9 @@ function Contact() {
                 target="_blank"
               >
                 <FaLinkedin size={40} />
+              </a>
+              <a href="https://github.com/kworlanyo" target="_blank">
+                <FaGithubSquare size={40} />
               </a>
               <a href="https://twitter.com/Worlanyo29" target="_blank">
                 <FaSquareXTwitter size={40} />

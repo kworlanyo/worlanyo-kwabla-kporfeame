@@ -3,6 +3,7 @@ import lavie from "../assets/lavie-juices-and-smoothies-website.png";
 import countries from "../assets/the-countries-website.png";
 import calculator from "../assets/calculator.png";
 import { LuExternalLink } from "react-icons/lu";
+import { LuGithub } from "react-icons/lu";
 
 const projects = [
   {
@@ -12,6 +13,8 @@ const projects = [
     link: "https://lavie-fruit-juices-and-smoothies-website.onrender.com/",
     image: lavie,
     techUsed: ["React", "CSS", "React Router Dom", "Figma", "React Icons"],
+    github:
+      "https://github.com/kworlanyo/Lavie-Fruit-Juices-And-Smoothies-Website",
   },
   {
     name: "Mitchell And Associates Website",
@@ -20,6 +23,8 @@ const projects = [
     link: "https://kworlanyo.github.io/Mitchell-And-Associates-Law-Firm-Website/",
     image: mitchell,
     techUsed: ["HTML", "CSS"],
+    github:
+      "https://github.com/kworlanyo/Mitchell-And-Associates-Law-Firm-Website",
   },
   {
     name: "The Countries Website",
@@ -28,6 +33,7 @@ const projects = [
     link: "https://the-countries-website.onrender.com/",
     image: countries,
     techUsed: ["React", "CSS", "Fetch API"],
+    github: "https://github.com/kworlanyo/The-Countries-Website",
   },
   {
     name: "Simple Calculator",
@@ -36,6 +42,7 @@ const projects = [
     link: "https://kworlanyo.github.io/Calculator/",
     image: calculator,
     techUsed: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/kworlanyo/Calculator",
   },
 ];
 
@@ -103,14 +110,23 @@ function Projects() {
                     );
                   })}
                 </div>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  className="flex items-center gap-2 text-blue-400 underline"
-                >
-                  Live demo
-                  <LuExternalLink />
-                </a>
+                <div className="flex gap-4">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    className="flex items-center gap-2 text-blue-400 underline"
+                  >
+                    Live demo
+                    <LuExternalLink />
+                  </a>
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    className="flex items-center gap-2 text-blue-400 underline"
+                  >
+                    Github Repo <LuGithub />
+                  </a>
+                </div>
               </div>
             </div>
           );
