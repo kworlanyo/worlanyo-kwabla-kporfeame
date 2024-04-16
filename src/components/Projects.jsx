@@ -1,7 +1,7 @@
 import mitchell from "../assets/Mitchell-and-associates-website.png";
 import lavie from "../assets/lavie-juices-and-smoothies-website.png";
 import countries from "../assets/the-countries-website.png";
-// import calculator from "../assets/calculator.png";
+import calculator from "../assets/calculator.png";
 import { LuExternalLink } from "react-icons/lu";
 import { LuGithub } from "react-icons/lu";
 
@@ -35,15 +35,15 @@ const projects = [
     techUsed: ["React", "CSS", "Fetch API"],
     github: "https://github.com/kworlanyo/The-Countries-Website",
   },
-  // {
-  //   name: "Simple Calculator",
-  //   description:
-  //     "This is a simple calculator created with HTML, CSS and JavaScript. This project helped me to understand how I can use the DOM to manipulate elements in HTML.",
-  //   link: "https://kworlanyo.github.io/Calculator/",
-  //   image: calculator,
-  //   techUsed: ["HTML", "CSS", "JavaScript"],
-  //   github: "https://github.com/kworlanyo/Calculator",
-  // },
+  {
+    name: "Simple Calculator",
+    description:
+      "This is a simple calculator created with HTML, CSS and JavaScript. This project helped me to understand how I can use the DOM to manipulate elements in HTML.",
+    link: "https://kworlanyo.github.io/Calculator/",
+    image: calculator,
+    techUsed: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/kworlanyo/Calculator",
+  },
 ];
 
 function Projects() {
