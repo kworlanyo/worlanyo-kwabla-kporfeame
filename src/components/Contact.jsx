@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import { IoIosMail } from "react-icons/io";
-import { FaSquareXTwitter } from "react-icons/fa6";
+// import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
-import { FaSquareInstagram } from "react-icons/fa6";
+// import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 
@@ -12,8 +12,7 @@ function Contact() {
       className="w-full py-16 bg-gray-900 md:py-20 2xl:py-24"
       id="contact"
       style={{
-        background:
-          "radial-gradient(farthest-corner at 700px 700px, rgb(39, 51, 83)0%, rgba(17,24,39,1) 57%)",
+        background: "radial-gradient(farthest-corner at 700px 700px, rgb(39, 51, 83)0%, rgba(17,24,39,1) 57%)",
       }}
     >
       <div
@@ -28,8 +27,7 @@ function Contact() {
             </div>
           </div>
           <p className="max-w-xl text-lg text-center text-gray-200 text-normal md:text-xl">
-            Feel free to reach out to me if you are looking for a developer,
-            have a query, or simply want to connect.
+            Feel free to reach out to me if you are looking for a developer, have a query, or simply want to connect.
           </p>
         </div>
         <div className="flex flex-col items-center gap-6 text-gray-200 md:gap-12">
@@ -44,29 +42,21 @@ function Contact() {
             </div>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <p className="text-base text-center text-normal">
-              You can contact me on these platforms as well!
-            </p>
+            <p className="text-base text-center text-normal">You can contact me on these platforms as well!</p>
             <div className="flex gap-3">
-              <a
-                href="https://www.linkedin.com/in/worlanyo-kwabla-kporfeame-12925177/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/worlanyo-kwabla-kporfeame-12925177/" target="_blank">
                 <FaLinkedin size={40} />
               </a>
               <a href="https://github.com/kworlanyo" target="_blank">
                 <FaGithubSquare size={40} />
               </a>
-              <a href="https://twitter.com/Worlanyo29" target="_blank">
+              {/* <a href="https://twitter.com/Worlanyo29" target="_blank">
                 <FaSquareXTwitter size={40} />
-              </a>
-              <a href="https://www.instagram.com/worla_k/" target="_blank">
+              </a> */}
+              {/* <a href="https://www.instagram.com/worla_k/" target="_blank">
                 <FaSquareInstagram size={40} />
-              </a>
-              <a
-                href="https://www.facebook.com/worlanyo.kporfeame/"
-                target="_blank"
-              >
+              </a> */}
+              <a href="https://www.facebook.com/worlanyo.kporfeame/" target="_blank">
                 <FaSquareFacebook size={40} />
               </a>
             </div>

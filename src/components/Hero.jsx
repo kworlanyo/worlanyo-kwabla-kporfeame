@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import heroImage from "../assets/hero-image-3.png";
-import { FaSquareXTwitter } from "react-icons/fa6";
+// import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
-import { FaSquareInstagram } from "react-icons/fa6";
+// import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
@@ -12,8 +12,7 @@ function Hero() {
     <section
       className="w-full py-16 text-gray-100 bg-gray-900 md:py-20 2xl:py-24"
       style={{
-        background:
-          "radial-gradient(farthest-corner at 350px 150px, rgb(39, 51, 83) 0%, rgba(17,24,39,1) 37%)",
+        background: "radial-gradient(farthest-corner at 350px 150px, rgb(39, 51, 83) 0%, rgba(17,24,39,1) 37%)",
       }}
       id="hero"
     >
@@ -31,11 +30,7 @@ function Hero() {
               <div className="flex flex-col items-center gap-2 my-4 text-xl font-semibold text-center sm:flex-row sm:justify-center md:text-3xl text-normal md:text-left md:justify-start">
                 <h2 className="">A passionate</h2>
                 <ReactTyped
-                  strings={[
-                    "Frontend Developer",
-                    "UI Designer",
-                    "Project Manager",
-                  ]}
+                  strings={["Full-Stack Web Developer", "UI Designer", "Project Manager"]}
                   typeSpeed={100}
                   backSpeed={100}
                   loop
@@ -43,33 +38,25 @@ function Hero() {
                 />
               </div>
               <p className="text-base text-center text-normal md:text-left">
-                I am on a mission to create captivating digital experiences.
-                With a keen eye for design and a love for coding, I craft
-                beautiful and user-friendly websites that leave a lasting
-                impression. I am always looking for new challenges and
-                opportunities to grow as a developer.
+                I am on a mission to create captivating digital experiences. With a keen eye for design and a love for
+                coding, I craft beautiful and user-friendly websites that leave a lasting impression. I am always
+                looking for new challenges and opportunities to grow as a developer.
               </p>
             </div>
             <div className="flex justify-center gap-3 md:justify-start">
-              <a
-                href="https://www.linkedin.com/in/worlanyo-kwabla-kporfeame-12925177/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/worlanyo-kwabla-kporfeame-12925177/" target="_blank">
                 <FaLinkedin size={40} />
               </a>
               <a href="https://github.com/kworlanyo" target="_blank">
                 <FaGithubSquare size={40} />
               </a>
-              <a href="https://twitter.com/Worlanyo29" target="_blank">
+              {/* <a href="https://twitter.com/Worlanyo29" target="_blank">
                 <FaSquareXTwitter size={40} />
-              </a>
-              <a href="https://www.instagram.com/worla_k/" target="_blank">
+              </a> */}
+              {/* <a href="https://www.instagram.com/worla_k/" target="_blank">
                 <FaSquareInstagram size={40} />
-              </a>
-              <a
-                href="https://www.facebook.com/worlanyo.kporfeame/"
-                target="_blank"
-              >
+              </a> */}
+              <a href="https://www.facebook.com/worlanyo.kporfeame/" target="_blank">
                 <FaSquareFacebook size={40} />
               </a>
             </div>
