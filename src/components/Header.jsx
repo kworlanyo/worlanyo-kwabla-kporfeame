@@ -56,11 +56,11 @@ function Header() {
           </li>
           <li>
             <a
-              href="/Worlanyo Kwabla Kporfeame Resume.pdf"
+              href="/Worlanyo Kwabla Kporfeame CV.pdf"
               className="px-5 py-2 font-medium text-gray-900 bg-gray-100 rounded-xl hover:bg-gray-300"
               download
             >
-              Resume
+              Curriculum Vitae
             </a>
           </li>
         </ul>
@@ -113,11 +113,11 @@ function Header() {
             </li>
             <li>
               <a
-                href="/Worlanyo Kwabla Kporfeame Word Web Developer Resume 2023.pdf"
+                href="/Worlanyo Kwabla Kporfeame CV.pdf"
                 className="px-5 py-2 font-medium text-gray-900 bg-gray-100 rounded-xl hover:bg-gray-300"
                 download
               >
-                Resume
+                Curriculum Vitae
               </a>
             </li>
           </ul>
