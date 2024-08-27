@@ -1,12 +1,22 @@
 import mitchell from "../assets/Mitchell-and-associates-website.png";
 import lavie from "../assets/lavie-juices-and-smoothies-website.png";
 import countries from "../assets/the-countries-website.png";
-import calculator from "../assets/calculator.png";
+// import calculator from "../assets/calculator.png";
 import employeeMgtApp from "../assets/employee-management-app.png";
+import deliveEats from "../assets/deliveats-food-delivery-app.png";
 import { LuExternalLink } from "react-icons/lu";
 import { LuGithub } from "react-icons/lu";
 
 const projects = [
+  {
+    name: "DelivEats Food Delivery App",
+    description:
+      "DelivEats is a food delivery application designed to facilitate seamless communication between users and restaurants, offering real-time order tracking, secure payment processing, and comprehensive authentication features. This project was developed as part of the DCI Full Stack Web Development Course by a team of four developers.",
+    link: "https://deliveats-food-delivery-app.onrender.com/",
+    image: deliveEats,
+    techUsed: ["React", "CSS", "React Router Dom", "Express", "MongoDB", "Node"],
+    github: "https://github.com/Food-Delivery-App-DCI/Food-Delivery-Project",
+  },
   {
     name: "AdminHub Employee Management App",
     description:
@@ -43,15 +53,15 @@ const projects = [
     techUsed: ["React", "CSS", "Fetch API"],
     github: "https://github.com/kworlanyo/The-Countries-Website",
   },
-  {
-    name: "Simple Calculator",
-    description:
-      "This is a simple calculator created with HTML, CSS and JavaScript. This project helped me to understand how I can use the DOM to manipulate elements in HTML.",
-    link: "https://kworlanyo.github.io/Calculator/",
-    image: calculator,
-    techUsed: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/kworlanyo/Calculator",
-  },
+  // {
+  //   name: "Simple Calculator",
+  //   description:
+  //     "This is a simple calculator created with HTML, CSS and JavaScript. This project helped me to understand how I can use the DOM to manipulate elements in HTML.",
+  //   link: "https://kworlanyo.github.io/Calculator/",
+  //   image: calculator,
+  //   techUsed: ["HTML", "CSS", "JavaScript"],
+  //   github: "https://github.com/kworlanyo/Calculator",
+  // },
 ];
 
 function Projects() {
