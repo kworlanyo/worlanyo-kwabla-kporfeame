@@ -21,7 +21,7 @@ const projects = [
     name: "AdminHub Employee Management App",
     description:
       "This is a comprehensive MERN (MongoDB, Express.js, React, Node.js) stack employee management application that I created to streamline HR operations within a company. On the frontend, I utilized React alongside libraries such as React Router Dom for seamless navigation.The backend was built with Node.js and Express.js, interfacing with a MongoDB database. The application features user authentication and role-based access control to differentiate between admin and employee functionalities. Overall, this project highlights my proficiency in full-stack development, from frontend design and development to backend architecture and database management.",
-    link: "https://employee-management-app-ktfx.onrender.com/",
+    link: "https://employee-management-app-3mri.onrender.com",
     image: employeeMgtApp,
     techUsed: ["React", "CSS", "React Router Dom", "Express", "MongoDB", "Node"],
     github: "https://github.com/kworlanyo/Employee-Management-App",
