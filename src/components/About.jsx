@@ -35,12 +35,12 @@ function About() {
               Geomatic firm as a field surveyor, to working as a Project Manager
               at a child development center. <br />
               <br />
-              After moving to Germany in 2021, I shifted my focus to UI design.
-              I completed the Google UX Design Course on Coursera which helped
-              me grasp the design process and develop user-centered interfaces.
-              But my fascination with website functionalities led me to pursue
-              further learning as a web developer, so I joined the Full Stack
-              Web Development program at the{" "}
+              After moving to Germany in 2021, I shifted my focus to UI design
+              and completed the Google UX Design Course on Coursera, which
+              deepened my understanding of the design process and user-centered
+              interfaces. My growing interest in website functionality motivated
+              me to pursue web development, so I enrolled in the Full Stack Web
+              Development program at the{" "}
               <a
                 href="https://digitalcareerinstitute.org/"
                 className="text-blue-400 underline"
@@ -48,7 +48,9 @@ function About() {
               >
                 Digital Career Institute
               </a>
-              , where I also currently work part time as a tutor. <br />
+              , which I have since successfully completed. During my time there,
+              I also worked part-time as a student tutor, further enhancing my
+              skills and knowledge. <br />
               <br />I enjoy playing the drums and piano, creating music with
               Ableton Live, and watching football.
             </p>
