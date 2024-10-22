@@ -13,6 +13,7 @@ import vscode from "../assets/icon-vscode.svg";
 import styled from "../assets/icon-styled-components.svg";
 import express from "../assets/icon-express-light.svg";
 import mongoDB from "../assets/icon-mongodb.svg";
+import typescript from "../assets/Typescript_logo_2020_small.svg";
 // import avatar from "../assets/avatar.png";
 // import aboutImg from "../assets/About-image.png";
 
@@ -20,6 +21,10 @@ const technologies = [
   {
     name: "JavaScript",
     image: javascript,
+  },
+  {
+    name: "Typescript",
+    image: typescript,
   },
   {
     name: "React",
@@ -139,7 +144,8 @@ function Skills() {
       <div
         className="w-full py-16 bg-[#030712] md:py-20 2xl:py-24"
         style={{
-          background: "radial-gradient(farthest-corner at 2000px 1000px, rgb(50, 66, 109) 0%, rgb(3, 7, 18) 67%)",
+          background:
+            "radial-gradient(farthest-corner at 2000px 1000px, rgb(50, 66, 109) 0%, rgb(3, 7, 18) 67%)",
         }}
       >
         <div className="flex flex-col w-full gap-6 px-4 mx-auto max-w-7xl md:gap-12 md:px-8">
@@ -150,13 +156,19 @@ function Skills() {
               </div>
             </div>
             <p className="max-w-2xl text-lg text-center text-gray-200 text-normal md:text-xl">
-              The skills, tools and technologies I use to bring your products to life
+              The skills, tools and technologies I use to bring your products to
+              life
             </p>
           </div>
           <div className="grid grid-cols-3 text-gray-200 gap-y-4 md:grid-cols-6 md:gap-y-8 lg:grid-cols-8 lg:gap-y-12">
             {technologies.map((tech, i) => {
               return (
-                <div key={i} className="flex flex-col items-center gap-2" data-aos="zoom-in" data-aos-duration="1000">
+                <div
+                  key={i}
+                  className="flex flex-col items-center gap-2"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                >
                   <img
                     src={tech.image}
                     alt={tech.name}
@@ -165,7 +177,9 @@ function Skills() {
                     // height={64}
                     className="transition-transform duration-300 md:hover:scale-110"
                   />
-                  <p className="text-base text-center text-normal md:text-lg">{tech.name}</p>
+                  <p className="text-base text-center text-normal md:text-lg">
+                    {tech.name}
+                  </p>
                 </div>
               );
             })}
