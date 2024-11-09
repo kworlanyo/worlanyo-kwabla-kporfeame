@@ -180,7 +180,7 @@ function Projects() {
                     target="_blank"
                     className="flex items-center gap-2 text-blue-400 underline"
                   >
-                    Live demo
+                    Visit Site
                     <LuExternalLink />
                   </a>
                   {project.github !== "" && (
