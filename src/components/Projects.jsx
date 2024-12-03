@@ -29,7 +29,7 @@ const projects = [
   {
     name: "Living Water Gemeinde Website",
     description:
-      "I developed a website for a religious organization using Wix Studio, creating a user-friendly platform that showcases their who they are, their events, and their resources. The site design highlights accessibility and clear navigation, enabling visitors to easily engage with the organization’s content and services.",
+      "I developed a website for a religious organization using Wix Studio, creating a user-friendly platform that showcases who they are, their events, and their resources. The site design highlights accessibility and clear navigation, enabling visitors to easily engage with the organization’s content and services.",
     link: "https://www.livingwatergemeinde.com/",
     image: livingWater,
     techUsed: ["Wix Studio"],
