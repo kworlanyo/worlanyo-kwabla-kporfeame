@@ -27,9 +27,9 @@ function About() {
               Who is Worlanyo?
             </h3>
             <p className="text-base text-gray-200 text-normal">
-              I am a UI designer turned web developer. Originally from Ghana, I
-              live in Germany with my family. Solving problems and helping
-              others really matter to me. <br />
+              I am a web developer originally from Ghana. I live in Germany with
+              my family. Solving problems and helping others really matter to
+              me. <br />
               <br /> Before diving into web development, I gained experience
               working with various organizations in Ghana, from working at a
               Geomatic firm as a field surveyor, to working as a Project Manager

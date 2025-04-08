@@ -10,7 +10,7 @@ import html from "../assets/html5.svg";
 import github from "../assets/icon-github.svg";
 import css from "../assets/icon-css.svg";
 import vscode from "../assets/icon-vscode.svg";
-import styled from "../assets/icon-styled-components.svg";
+// import styled from "../assets/icon-styled-components.svg";
 import express from "../assets/icon-express-light.svg";
 import mongoDB from "../assets/icon-mongodb.svg";
 import typescript from "../assets/Typescript_logo_2020_small.svg";
@@ -74,10 +74,10 @@ const technologies = [
     name: "VS Code",
     image: vscode,
   },
-  {
-    name: "Styled Components",
-    image: styled,
-  },
+  // {
+  //   name: "Styled Components",
+  //   image: styled,
+  // },
 ];
 
 function Skills() {
