@@ -14,7 +14,7 @@ const projects = [
     name: "The Grow Website",
     description:
       "I developed a full-stack blog website for a client, enabling her to publish and manage her own blog content. I also provided a backend functionality for creating, editing, and deleting blog posts, as well as approving reader comments before they are published on the site.",
-    link: "https://my-blog-website-gztd.onrender.com/",
+    link: "https://blog-project.apps.worlanyokwablakporfeame.com/",
     image: growBlog,
     techUsed: [
       "React",
