@@ -39,7 +39,7 @@ const projects = [
     name: "DelivEats Food Delivery App",
     description:
       "DelivEats is a food delivery application designed to facilitate seamless communication between users and restaurants, offering real-time order tracking, secure payment processing, and comprehensive authentication features. This project was developed as part of the DCI Full Stack Web Development Course by a team of four developers.",
-    link: "https://deliveats-food-delivery-app.onrender.com/",
+    link: "https://deliveats-food-delivery-app.apps.worlanyokwablakporfeame.com/",
     image: deliveEats,
     techUsed: [
       "React",
